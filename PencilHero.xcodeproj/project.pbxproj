@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		910A38121A6719C100AEEF3E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 910A38111A6719C100AEEF3E /* main.cpp */; };
+		910A38161A671E7000AEEF3E /* MonoEngine.lib in Frameworks */ = {isa = PBXBuildFile; fileRef = 910A38151A671E7000AEEF3E /* MonoEngine.lib */; };
+		910A38181A671EBE00AEEF3E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910A38171A671EBE00AEEF3E /* OpenGL.framework */; };
+		910A38201A67201B00AEEF3E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910A38191A67201B00AEEF3E /* AudioToolbox.framework */; };
+		910A38211A67201B00AEEF3E /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910A381A1A67201B00AEEF3E /* AudioUnit.framework */; };
+		910A38221A67201B00AEEF3E /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910A381B1A67201B00AEEF3E /* Carbon.framework */; };
+		910A38231A67201B00AEEF3E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910A381C1A67201B00AEEF3E /* Cocoa.framework */; };
+		910A38241A67201B00AEEF3E /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910A381D1A67201B00AEEF3E /* CoreAudio.framework */; };
+		910A38251A67201B00AEEF3E /* ForceFeedback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910A381E1A67201B00AEEF3E /* ForceFeedback.framework */; };
+		910A38261A67201B00AEEF3E /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910A381F1A67201B00AEEF3E /* IOKit.framework */; };
+		910A382A1A67212500AEEF3E /* GameZone.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 910A38281A67212500AEEF3E /* GameZone.cpp */; };
+		910A382F1A67222000AEEF3E /* pixelette.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 910A382C1A67220400AEEF3E /* pixelette.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		910A382E1A67221A00AEEF3E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				910A382F1A67222000AEEF3E /* pixelette.ttf in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		910A37F01A67197500AEEF3E /* PencilHero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PencilHero.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		910A38111A6719C100AEEF3E /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		910A38131A671AFE00AEEF3E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
+		910A38151A671E7000AEEF3E /* MonoEngine.lib */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = MonoEngine.lib; path = MonoEngine1/MonoEngine.lib; sourceTree = "<group>"; };
+		910A38171A671EBE00AEEF3E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		910A38191A67201B00AEEF3E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		910A381A1A67201B00AEEF3E /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		910A381B1A67201B00AEEF3E /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		910A381C1A67201B00AEEF3E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		910A381D1A67201B00AEEF3E /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		910A381E1A67201B00AEEF3E /* ForceFeedback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ForceFeedback.framework; path = System/Library/Frameworks/ForceFeedback.framework; sourceTree = SDKROOT; };
+		910A381F1A67201B00AEEF3E /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		910A38281A67212500AEEF3E /* GameZone.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameZone.cpp; sourceTree = SOURCE_ROOT; };
+		910A38291A67212500AEEF3E /* GameZone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameZone.h; sourceTree = SOURCE_ROOT; };
+		910A382C1A67220400AEEF3E /* pixelette.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pixelette.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		910A37ED1A67197500AEEF3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				910A38201A67201B00AEEF3E /* AudioToolbox.framework in Frameworks */,
+				910A38211A67201B00AEEF3E /* AudioUnit.framework in Frameworks */,
+				910A38221A67201B00AEEF3E /* Carbon.framework in Frameworks */,
+				910A38231A67201B00AEEF3E /* Cocoa.framework in Frameworks */,
+				910A38241A67201B00AEEF3E /* CoreAudio.framework in Frameworks */,
+				910A38251A67201B00AEEF3E /* ForceFeedback.framework in Frameworks */,
+				910A38261A67201B00AEEF3E /* IOKit.framework in Frameworks */,
+				910A38181A671EBE00AEEF3E /* OpenGL.framework in Frameworks */,
+				910A38161A671E7000AEEF3E /* MonoEngine.lib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		910A37F11A67197500AEEF3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				910A37F01A67197500AEEF3E /* PencilHero.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		910A37F21A67197500AEEF3E /* PencilHero */ = {
+			isa = PBXGroup;
+			children = (
+				910A38131A671AFE00AEEF3E /* Info.plist */,
+				910A38111A6719C100AEEF3E /* main.cpp */,
+				910A38281A67212500AEEF3E /* GameZone.cpp */,
+				910A38291A67212500AEEF3E /* GameZone.h */,
+			);
+			path = PencilHero;
+			sourceTree = "<group>";
+		};
+		910A38271A67210000AEEF3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				910A38191A67201B00AEEF3E /* AudioToolbox.framework */,
+				910A381A1A67201B00AEEF3E /* AudioUnit.framework */,
+				910A381B1A67201B00AEEF3E /* Carbon.framework */,
+				910A381C1A67201B00AEEF3E /* Cocoa.framework */,
+				910A381D1A67201B00AEEF3E /* CoreAudio.framework */,
+				910A381E1A67201B00AEEF3E /* ForceFeedback.framework */,
+				910A381F1A67201B00AEEF3E /* IOKit.framework */,
+				910A38171A671EBE00AEEF3E /* OpenGL.framework */,
+				910A38151A671E7000AEEF3E /* MonoEngine.lib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		910A382B1A67220400AEEF3E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				910A382C1A67220400AEEF3E /* pixelette.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		913C9D151A67187D003E02BF = {
+			isa = PBXGroup;
+			children = (
+				910A382B1A67220400AEEF3E /* Resources */,
+				910A38271A67210000AEEF3E /* Frameworks */,
+				910A37F21A67197500AEEF3E /* PencilHero */,
+				910A37F11A67197500AEEF3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		910A37EF1A67197500AEEF3E /* PencilHero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 910A380F1A67197600AEEF3E /* Build configuration list for PBXNativeTarget "PencilHero" */;
+			buildPhases = (
+				910A37EC1A67197500AEEF3E /* Sources */,
+				910A37ED1A67197500AEEF3E /* Frameworks */,
+				910A382E1A67221A00AEEF3E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PencilHero;
+			productName = PencilHero;
+			productReference = 910A37F01A67197500AEEF3E /* PencilHero.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		913C9D161A67187D003E02BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				TargetAttributes = {
+					910A37EF1A67197500AEEF3E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 913C9D191A67187D003E02BF /* Build configuration list for PBXProject "PencilHero" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 913C9D151A67187D003E02BF;
+			productRefGroup = 910A37F11A67197500AEEF3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				910A37EF1A67197500AEEF3E /* PencilHero */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		910A37EC1A67197500AEEF3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				910A38121A6719C100AEEF3E /* main.cpp in Sources */,
+				910A382A1A67212500AEEF3E /* GameZone.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		910A380B1A67197600AEEF3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MonoEngine1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		910A380C1A67197600AEEF3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MonoEngine1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		913C9D1A1A67187D003E02BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					MonoEngine1/include,
+				);
+				LIBRARY_SEARCH_PATHS = MonoEngine1/;
+			};
+			name = Debug;
+		};
+		913C9D1B1A67187D003E02BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					MonoEngine1/include,
+				);
+				LIBRARY_SEARCH_PATHS = MonoEngine1/;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		910A380F1A67197600AEEF3E /* Build configuration list for PBXNativeTarget "PencilHero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				910A380B1A67197600AEEF3E /* Debug */,
+				910A380C1A67197600AEEF3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		913C9D191A67187D003E02BF /* Build configuration list for PBXProject "PencilHero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				913C9D1A1A67187D003E02BF /* Debug */,
+				913C9D1B1A67187D003E02BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 913C9D161A67187D003E02BF /* Project object */;
+}
