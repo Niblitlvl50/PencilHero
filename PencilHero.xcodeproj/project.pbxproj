@@ -19,6 +19,19 @@
 		910A38261A67201B00AEEF3E /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910A381F1A67201B00AEEF3E /* IOKit.framework */; };
 		910A382A1A67212500AEEF3E /* GameZone.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 910A38281A67212500AEEF3E /* GameZone.cpp */; };
 		910A382F1A67222000AEEF3E /* pixelette.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 910A382C1A67220400AEEF3E /* pixelette.ttf */; };
+		910A383D1A67962500AEEF3E /* spritesheet.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 910A38371A67961300AEEF3E /* spritesheet.png */; };
+		910A383E1A67962500AEEF3E /* tree1.sprite in CopyFiles */ = {isa = PBXBuildFile; fileRef = 910A38381A67961300AEEF3E /* tree1.sprite */; };
+		910A383F1A67962500AEEF3E /* tree2.sprite in CopyFiles */ = {isa = PBXBuildFile; fileRef = 910A38391A67961300AEEF3E /* tree2.sprite */; };
+		910A38401A67962500AEEF3E /* tree3.sprite in CopyFiles */ = {isa = PBXBuildFile; fileRef = 910A383A1A67961300AEEF3E /* tree3.sprite */; };
+		910A38411A67962500AEEF3E /* walkLeft.sprite in CopyFiles */ = {isa = PBXBuildFile; fileRef = 910A383B1A67961300AEEF3E /* walkLeft.sprite */; };
+		910A38421A67962500AEEF3E /* walkRight.sprite in CopyFiles */ = {isa = PBXBuildFile; fileRef = 910A383C1A67961300AEEF3E /* walkRight.sprite */; };
+		910A38431A67962500AEEF3E /* background.sprite in CopyFiles */ = {isa = PBXBuildFile; fileRef = 910A38301A6795ED00AEEF3E /* background.sprite */; };
+		910A38441A67962500AEEF3E /* beatle.sprite in CopyFiles */ = {isa = PBXBuildFile; fileRef = 910A38311A6795ED00AEEF3E /* beatle.sprite */; };
+		910A38451A67962500AEEF3E /* bush.sprite in CopyFiles */ = {isa = PBXBuildFile; fileRef = 910A38321A6795ED00AEEF3E /* bush.sprite */; };
+		910A38461A67962500AEEF3E /* cloud1.sprite in CopyFiles */ = {isa = PBXBuildFile; fileRef = 910A38331A6795ED00AEEF3E /* cloud1.sprite */; };
+		910A38471A67962500AEEF3E /* cloud2.sprite in CopyFiles */ = {isa = PBXBuildFile; fileRef = 910A38341A6795ED00AEEF3E /* cloud2.sprite */; };
+		910A38481A67962500AEEF3E /* fish.sprite in CopyFiles */ = {isa = PBXBuildFile; fileRef = 910A38351A6795ED00AEEF3E /* fish.sprite */; };
+		910A38491A67962500AEEF3E /* jumpLeft.sprite in CopyFiles */ = {isa = PBXBuildFile; fileRef = 910A38361A6795ED00AEEF3E /* jumpLeft.sprite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +41,19 @@
 			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
+				910A383D1A67962500AEEF3E /* spritesheet.png in CopyFiles */,
+				910A383E1A67962500AEEF3E /* tree1.sprite in CopyFiles */,
+				910A383F1A67962500AEEF3E /* tree2.sprite in CopyFiles */,
+				910A38401A67962500AEEF3E /* tree3.sprite in CopyFiles */,
+				910A38411A67962500AEEF3E /* walkLeft.sprite in CopyFiles */,
+				910A38421A67962500AEEF3E /* walkRight.sprite in CopyFiles */,
+				910A38431A67962500AEEF3E /* background.sprite in CopyFiles */,
+				910A38441A67962500AEEF3E /* beatle.sprite in CopyFiles */,
+				910A38451A67962500AEEF3E /* bush.sprite in CopyFiles */,
+				910A38461A67962500AEEF3E /* cloud1.sprite in CopyFiles */,
+				910A38471A67962500AEEF3E /* cloud2.sprite in CopyFiles */,
+				910A38481A67962500AEEF3E /* fish.sprite in CopyFiles */,
+				910A38491A67962500AEEF3E /* jumpLeft.sprite in CopyFiles */,
 				910A382F1A67222000AEEF3E /* pixelette.ttf in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -50,6 +76,19 @@
 		910A38281A67212500AEEF3E /* GameZone.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameZone.cpp; sourceTree = SOURCE_ROOT; };
 		910A38291A67212500AEEF3E /* GameZone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameZone.h; sourceTree = SOURCE_ROOT; };
 		910A382C1A67220400AEEF3E /* pixelette.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pixelette.ttf; sourceTree = "<group>"; };
+		910A38301A6795ED00AEEF3E /* background.sprite */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = background.sprite; sourceTree = "<group>"; };
+		910A38311A6795ED00AEEF3E /* beatle.sprite */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = beatle.sprite; sourceTree = "<group>"; };
+		910A38321A6795ED00AEEF3E /* bush.sprite */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bush.sprite; sourceTree = "<group>"; };
+		910A38331A6795ED00AEEF3E /* cloud1.sprite */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cloud1.sprite; sourceTree = "<group>"; };
+		910A38341A6795ED00AEEF3E /* cloud2.sprite */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cloud2.sprite; sourceTree = "<group>"; };
+		910A38351A6795ED00AEEF3E /* fish.sprite */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fish.sprite; sourceTree = "<group>"; };
+		910A38361A6795ED00AEEF3E /* jumpLeft.sprite */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = jumpLeft.sprite; sourceTree = "<group>"; };
+		910A38371A67961300AEEF3E /* spritesheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spritesheet.png; sourceTree = "<group>"; };
+		910A38381A67961300AEEF3E /* tree1.sprite */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tree1.sprite; sourceTree = "<group>"; };
+		910A38391A67961300AEEF3E /* tree2.sprite */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tree2.sprite; sourceTree = "<group>"; };
+		910A383A1A67961300AEEF3E /* tree3.sprite */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tree3.sprite; sourceTree = "<group>"; };
+		910A383B1A67961300AEEF3E /* walkLeft.sprite */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = walkLeft.sprite; sourceTree = "<group>"; };
+		910A383C1A67961300AEEF3E /* walkRight.sprite */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = walkRight.sprite; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +149,19 @@
 		910A382B1A67220400AEEF3E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				910A38371A67961300AEEF3E /* spritesheet.png */,
+				910A38381A67961300AEEF3E /* tree1.sprite */,
+				910A38391A67961300AEEF3E /* tree2.sprite */,
+				910A383A1A67961300AEEF3E /* tree3.sprite */,
+				910A383B1A67961300AEEF3E /* walkLeft.sprite */,
+				910A383C1A67961300AEEF3E /* walkRight.sprite */,
+				910A38301A6795ED00AEEF3E /* background.sprite */,
+				910A38311A6795ED00AEEF3E /* beatle.sprite */,
+				910A38321A6795ED00AEEF3E /* bush.sprite */,
+				910A38331A6795ED00AEEF3E /* cloud1.sprite */,
+				910A38341A6795ED00AEEF3E /* cloud2.sprite */,
+				910A38351A6795ED00AEEF3E /* fish.sprite */,
+				910A38361A6795ED00AEEF3E /* jumpLeft.sprite */,
 				910A382C1A67220400AEEF3E /* pixelette.ttf */,
 			);
 			path = Resources;
